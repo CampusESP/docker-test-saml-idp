@@ -10,12 +10,12 @@ $config = array(
         'exampleauth:UserPass',
         'user1:user1pass' => array(
             'uid' => array('1'),
-            'eduPersonAffiliation' => array('faculty'),
+            'eduPersonPrimaryAffiliation' => array('faculty'),
             'email' => 'user1@example.com',
         ),
         'user2:user2pass' => array(
             'uid' => array('2'),
-            'eduPersonAffiliation' => array('faculty'),
+            'eduPersonPrimaryAffiliation' => array('group'),
             'email' => 'user2@example.com',
         ),
     ),
